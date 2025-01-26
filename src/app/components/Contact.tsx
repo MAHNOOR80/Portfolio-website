@@ -64,11 +64,11 @@ const Contact = () => {
               <textarea
                 id="message"
                 name="message"
-                rows="4"
+                rows={4} // Change this line
                 placeholder="Write your message"
                 className="w-full px-4 py-2 bg-[#0e1111] border border-gray-600 rounded-lg text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-teal-500"
                 required
-              ></textarea>
+            ></textarea>
             </div>
   
             {/* Submit Button */}

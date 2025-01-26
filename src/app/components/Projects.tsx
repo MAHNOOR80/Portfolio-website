@@ -1,8 +1,6 @@
 "use client"
 import React,{useState} from 'react'
 import ProjectCard from './ProjectCard'
-import portfolioimg from '@/app/assests/portfolio.jpg'
-import PreviousMap_ from 'postcss/lib/previous-map'
 import ProjectTag from './ProjectTag'
 
 const projectData =[
@@ -65,11 +63,11 @@ const projectData =[
 
 
 const Projects = () => {
-    const [tag,setTag]=useState("All");
+  const [tag, setTag] = useState<string>("All"); // Specify the type for useState
 
-    const handleTagChange=(newTag)=>{
-        setTag(newTag);
-    }
+  const handleTagChange = (newTag: string) => { // Explicitly define the type for newTag
+      setTag(newTag);
+  }
 
     const filteredProjects = projectData.filter((project)=>
         project.tag.includes(tag)

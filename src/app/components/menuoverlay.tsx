@@ -1,13 +1,22 @@
 import React from 'react';
 import Navbarlinks from './navbarlinks';
 
-const MenuOverlay = ({ link }) => {
+interface LinkItem {
+  title: string;
+  path: string;
+}
+
+interface MenuOverlayProps {
+  link: LinkItem[];
+}
+
+const MenuOverlay: React.FC<MenuOverlayProps> = ({ link }) => {
   return (
     <ul className='flex flex-col py-4 items-center'>
-      {link.map((link, index) => {
+      {link.map((linkItem, index) => {
         return (
           <li key={index}>
-            <Navbarlinks href={link.path} title={link.title} />
+            <Navbarlinks href={linkItem.path} title={linkItem.title} />
           </li>
         );
       })}
