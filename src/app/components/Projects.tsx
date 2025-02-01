@@ -7,7 +7,7 @@ const projectData =[
     {
         id:1,
         title:"React Portfolio Website",
-        description:"Project 1 description",
+        description:"A modern and responsive portfolio website built with React.js, showcasing my projects, skills, and contact details.",
         image:"/images/1.png",
         tag:["All","Web"],
         gitUrl:"/",
@@ -17,7 +17,7 @@ const projectData =[
     {
         id:2,
         title:"Ecommerce Website",
-        description:"Project 2 description",
+        description:"A fully functional eCommerce platform with product listings, filtering, and a seamless shopping experience.",
         image:"/images/2.png",
         tag:["All","Web"],
           gitUrl:"/",
@@ -26,7 +26,7 @@ const projectData =[
     {
         id:3,
         title:"Countdown Timer",
-        description:"Project 3 description",
+        description:"A customizable countdown timer built with JavaScript that helps track events, deadlines, and reminders.",
         image:"/images/3.png",
         tag:["All","Web"],
           gitUrl:"/",
@@ -34,8 +34,8 @@ const projectData =[
     },
     {
         id:4,
-        title:"TIC-TAC-TOE",
-        description:"Project 4 description",
+        title:"Food Ordering Website",
+        description:"An interactive food ordering platform with a sleek UI, allowing users to browse menus, add items to the cart, and place orders easily.",
         image:"/images/4.png",
         tag:["All","Mobile"],
           gitUrl:"/",
@@ -43,8 +43,8 @@ const projectData =[
     },
     {
         id:5,
-        title:"Calculator",
-        description:"Project 5 description",
+        title:"Firebase Integration Project",
+        description:"A project demonstrating Firebase integration with React, including Firestore database operations, authentication, and real-time updates",
         image:"/images/5.png",
         tag:["All","Web"],
           gitUrl:"/",
@@ -52,8 +52,8 @@ const projectData =[
     },
     {
         id:6,
-        title:"Calculator",
-        description:"Project 8 description",
+        title:"Full-Stack Roadmap",
+        description:"A structured roadmap covering essential topics and technologies required to become a full-stack developer.",
         image:"/images/6.png",
         tag:["All","Web"],
           gitUrl:"/",
